@@ -15,6 +15,10 @@ class Post
   def author_name
     @author.name unless @author == nil
   end
+  
+  def self.all
+    @@all
+  end
 
 
 end

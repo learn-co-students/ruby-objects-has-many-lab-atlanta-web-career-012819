@@ -2,7 +2,7 @@ class Song
   @@all = []
   def initialize(title)
     @name = title
-    @@all << title
+    @@all << self
   end
   attr_accessor :name
   attr_accessor :artist
